@@ -1,129 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koťátka</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koťátka</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styly.css">
 </head>
-<body class="bg-primary-subtle">
-      <nav class="navbar navbar-expand-lg bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><b>Stanice Cat</b></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.html">Domů</a>
-        <a class="nav-link" href="nasezvirata.html">Naše Zvířátka</a>
-        <a class="nav-link" href="kotata.html">Koťátka</a>
-        <a class="nav-link" href="oplemeni.html">O Plemeni A Péče</a>
-        <a class="nav-link" href="#">Kontakt A Rezervace</a>
+
+<body class="my-mesh">
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><b>Stanice Cat</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Domů</a>
+          <a class="nav-link" href="nasezvirata.html">Naše Zvířátka</a>
+          <a class="nav-link" href="kotata.html">Koťátka</a>
+          <a class="nav-link" href="oplemeni.html">O Plemeni A Péče</a>
+          <a class="nav-link" href="#">Kontakt A Rezervace</a>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-         <section class="about py-5">
-      <div class="container">
-        <div class="row">
-    <h1 class="text-center">Koťátka</h1>
-    <h2>Dostupná Mláďata:</h2>
+  <section class="about py-5">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center text-primary" style="font-size:75px"><b>Koťátka</b></h1>
+        <h2 class="py-3 text-center text-primary">Dostupná Mláďata:</h2>
+      </div>
+
+
+      <div class="row g-3 py-3" style="justify-content: center;">
+        <div class="col-md-6 col-xl-3">
+          <div class="card">
+            <img src="images/barry.jpg" class="card-img-top" alt="" height="265">
+            <div class="card-body bg-info-subtle">
+              <h5 class="card-title"><b>Barry</b></h5>
+              <p class="card-text">
+                <b>Stav:</b> Volný
+              <p>
+                <b>Rodiče:</b> Larry, Melody
+              </p>
+              <p>
+                <b>Datum k Odběru:</b> 30.10.2025
+              </p>
+              <p>
+                <b>Krátká Povaha:</b> Klidný a mazlivý.
+              </p>
+              <a href="#" class="btn btn-primary">Zažádat o rezervaci</a>
+            </div>
+          </div>
         </div>
-  </div>
+        <div class="col-md-6 col-xl-3">
+          <div class="card">
+            <img src="images/cascar.jpg" class="card-img-top" alt="" height="265">
+            <div class="card-body bg-info-subtle">
+              <h5 class="card-title"><b>Cascar</b></h5>
+              <p class="card-text">
+                <b>Stav:</b> Rezervace
+              <p>
+                <b>Rodiče:</b> Oscar, Kaida
+              </p>
+              <p>
+                <b>Datum k Odběru:</b> 1.11.2025
+              </p>
+              <p>
+                <b>Krátká Povaha:</b> Rychlý a zběsilý.
+              </p>
+              <a href="#" class="btn btn-primary">Zažádat o rezervaci</a>
+            </div>
+          </div>
+        </div>
 
-            <div class="row g-3 py-4" style="justify-content: center;">
-                <div class="col-md-6 col-xl-3">
-            <div class="card">
-  <img src="images/barry.jpg" class="card-img-top" alt="" height="240">
-  <div class="card-body">
-    <h5 class="card-title"><b>Barry</b></h5>
-    <p class="card-text">
-    <b>Stav:</b> Volný<p>
-    <b>Rodiče:</b> Larry, Melody</p><p>
-    <b>Datum k Odběru:</b> 30.10.2025</p><p>
-    <b>Krátká Povaha:</b> Klidný a mazlivý.</p>
-    <a href="#" class="btn btn-primary">Zažádat o rezervaci</a>
-  </div>
-</div>
-</div>
-                <div class="col-md-6 col-xl-3">
-            <div class="card">
-  <img src="images/cascar.jpg" class="card-img-top" alt="" height="265">
-  <div class="card-body">
-    <h5 class="card-title"><b>Cascar</b></h5>
-    <p class="card-text">
-    <b>Stav:</b> Rezervace<p>
-    <b>Rodiče:</b> Oscar, Kaida</p><p>
-    <b>Datum k Odběru:</b> 1.11.2025</p><p>
-    <b>Krátká Povaha:</b> Rychlý a zběsilý.</p>
-    <a href="#" class="btn btn-primary">Zažádat o rezervaci</a>
-  </div>
-</div>
-</div>
-
-                  <div class="col-md-6 col-xl-3">
-            <div class="card">
-  <img src="images/billy.jpg" class="card-img-top" alt="" height="265">
-  <div class="card-body">
-    <h5 class="card-title"><b>Billy</b></h5>
-    <p class="card-text">
-    <b>Stav:</b> Volný<p>
-    <b>Rodiče:</b> Oscar, Melody</p><p>
-    <b>Datum k Odběru:</b> 28.10.2025</p><p>
-    <b>Krátká Povaha:</b> Tichý a klidný.</p>
-    <a href="#" class="btn btn-primary">Zažádat o rezervaci</a>
-  </div>
-</div>
-</div>
+        <div class="col-md-6 col-xl-3">
+          <div class="card">
+            <img src="images/billy.jpg" class="card-img-top" alt="" height="265">
+            <div class="card-body bg-info-subtle">
+              <h5 class="card-title"><b>Billy</b></h5>
+              <p class="card-text">
+                <b>Stav:</b> Volný
+              <p>
+                <b>Rodiče:</b> Oscar, Melody
+              </p>
+              <p>
+                <b>Datum k Odběru:</b> 28.10.2025
+              </p>
+              <p>
+                <b>Krátká Povaha:</b> Tichý a klidný.
+              </p>
+              <a href="#" class="btn btn-primary">Zažádat o rezervaci</a>
+            </div>
+          </div>
+        </div>
 
       </div>
 
-<h2>Plánované Vrhy:</h2>
-            <div class="row g-3 py-4" style="justify-content: center;">
-                <div class="col-md-6 col-xl-3">
-            <div class="card">
-  <div class="card-body">
-    <h5 class="card-title"><b>Kaida + Larry</b></h5>
-    <p class="card-text">
-    <b>Předpo. Termíny:</b> 15.11.2025 - 26.11.2025<p>
-    <b>Oček. Vlastnosti:</b> Klidné, mrštné.</p><p>
-    <a href="#" class="btn btn-primary">Přidat se na čekací listinu</a>
-  </div>
-</div>
-</div>
-
-                <div class="col-md-6 col-xl-3">
-            <div class="card">
-  <div class="card-body">
-    <h5 class="card-title"><b>Oscar + Melody</b></h5>
-    <p class="card-text">
-    <b>Předpo. Termíny:</b> 17.11.2025 - 28.11.2025<p>
-    <b>Oček. Vlastnosti:</b> Zběsilé, společenské.</p><p>
-    <a href="#" class="btn btn-primary">Přidat se na čekací listinu</a>
-  </div>
-</div>
-</div>
-</div>
-
-<h2>Co je v ceně:</h2>
-      <div class="container">
-        <div class="row py-5">
-    <h3 class="text-center">Čip, očkování, pas, startovací balíček, chovatelský servis.</h3>
+      <h2 class="text-center text-primary py-3"><b>Plánované Vrhy:</b></h2>
+      <div class="row g-3 py-4" style="justify-content: center;">
+        <div class="col-md-6 col-xl-3">
+          <div class="card">
+            <div class="card-body bg-info-subtle">
+              <h5 class="card-title"><b>Kaida + Larry</b></h5>
+              <p class="card-text">
+                <b>Předpo. Termíny:</b> 15.11.2025 - 26.11.2025
+              <p>
+                <b>Oček. Vlastnosti:</b> Klidné, mrštné.
+              </p>
+              <p>
+                <a href="#" class="btn btn-primary">Přidat se na čekací listinu</a>
+            </div>
+          </div>
         </div>
-</div>
-<h2>Jak probíhá odběr:</h2>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="card">
+            <div class="card-body bg-info-subtle">
+              <h5 class="card-title"><b>Oscar + Melody</b></h5>
+              <p class="card-text">
+                <b>Předpo. Termíny:</b> 17.11.2025 - 28.11.2025
+              <p>
+                <b>Oček. Vlastnosti:</b> Zběsilé, společenské.
+              </p>
+              <p>
+                <a href="#" class="btn btn-primary">Přidat se na čekací listinu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-center text-info py-3"><b>Co je v ceně:</b></h2>
+      <div class="container text-center">
+        <p class="fs-3 fw-bold"> - Čip - </p>
+        <p class="fs-3 fw-bold"> - Očkování - </p>
+        <p class="fs-3 fw-bold"> - Pas - </p>
+        <p class="fs-3 fw-bold"> - Startovací balíček - </p>
+        <p class="fs-3 fw-bold"> - Chovatelský servis - </p>
+      </div>
+
+      <h2 class="text-center text-info py-5"><b>Jak probíhá odběr:</b></h2>
 
       <div class="container">
-        <div class="row py-5">
-    <h3 class="text-center">Kontakt → návštěva/záloha → odběr & podpora.</h3>
+        <div class="row py-2">
+          <h3 class="text-center fw-bold">Kontakt → návštěva/záloha → odběr & podpora.</h3>
         </div>
-</div>
+      </div>
+    </div>
+  </section>
 
-    </section> 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
